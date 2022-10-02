@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.navbar {
+    background-color: #373737;
+}
+.navbar .navbar-brand {
+    margin-left: 7%;
+}
+.navbar .navbar-brand img {
+    width: 100px;
+}
+.navbar li.nav-item a.nav-link {
+    color: #9c9c9c;
+}
+.navbar li.nav-item a.nav-link:hover {
+    color: #ececec;
+}
+.navbar li.nav-item a.comprarTickets {
+    color: #008b0c;
+}
+.navbar li.nav-item a.comprarTickets:hover {
+    color: #27e700;
+}
+#navbarSupportedContent {
+    margin-right: 5%;
+}
+.encabezado {
+    padding: 0;
+}
+.encabezado .carousel-inner {
+    filter: brightness(50%);
+}
+.encabezado .jumbotron {
+    position: absolute;
+    top: 30%;
+    z-index: 99;
+    padding-right: 7%;
+}
+@media screen and (max-width: 700px) {
+    .encabezado .jumbotron {
+        top: 10%;
+        font-size: 0.85em;
+        padding: 0;
+    }
+}
+.encabezado h1 {
+    font-weight: 600;
+}
+#comprarTicketsBtn {
+    background: #008b0c;
+    border: none;
+}
+.losOradores {
+    background-color: #FFF;
+    padding: 0.5em 15%;
+}
+.losOradores p {
+    margin: auto;
+    font-size: 0.7em;
+}
+.losOradores .card {
+    text-align: left;
+    margin-bottom: 1em;
+}
+.losOradores span {
+    margin: 0.1em;
+}
+.lugarYFecha {
+    background-color: #333333;
+    color: #FFF;
+    text-align: left;
+}
+.lugarYFecha .jumbotron {
+    padding: 1em 0em;
+}
+.lugarYFecha p {
+    font-size: 0.9em;
+}
+#honolulu {
+    padding: 0;
+    border-right: solid #FFF 1px;
+}
+.convEnOrador {
+    background-color: #FFF;
+    padding: 1em 25%;
+}
+.convEnOrador p:nth-child(1) {
+    margin: auto;
+    font-size: 0.7em;
+}
+#nombre, #apellido {
+    margin: 1em 0;
+}
+#emailHelp {
+    text-align: left;
+}
+.convEnOrador button {
+    background-color: #91d353;
+    color: #f3f3f3;
+    border: none;
+    width: 100%;
+}
+.convEnOrador button:hover {
+    background-color: #63a525;
+}
+.convEnOrador input:focus, .convEnOrador textarea:focus  {
+    border-color: #d4d4d4;
+    box-shadow: 0 0 0.25rem 0.25rem #d4d4d4;
+}
+.footer {
+    background-color: #0f3544;
+}
+.footer a {
+    color: #ececec;
+    font-size: 0.8em;
+    width: 10em;
+}
+.footer a:hover {
+    color: #9c9c9c;
+}
