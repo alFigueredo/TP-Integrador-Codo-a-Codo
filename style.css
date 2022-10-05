@@ -1,5 +1,4 @@
 body {
-    text-align: center;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -12,6 +11,7 @@ a {
 }
 .navbar .navbar-brand {
     margin-left: 7%;
+    color: #ececec;
 }
 .navbar .navbar-brand img {
     width: 100px;
@@ -29,25 +29,37 @@ a {
     color: #27e700;
 }
 #navbarSupportedContent {
-    margin-right: 5%;
-}
-.encabezado {
-    padding: 0;
+    margin-right: 7%;
 }
 .encabezado .carousel-inner {
     filter: brightness(50%);
 }
 .encabezado .jumbotron {
-    position: absolute;
     top: 30%;
-    z-index: 99;
+    z-index: 700;
     padding-right: 7%;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 992px) {
     .encabezado .jumbotron {
-        top: 10%;
-        font-size: 0.85em;
+        padding: 0 5%;
+        right: 0%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .encabezado .jumbotron {
         padding: 0;
+        top: 0%;
+        font-size: 0.7em;
+    }
+    .encabezado .jumbotron h1 {
+        margin-bottom: 0.1em;
+    }
+    .encabezado .jumbotron p {
+        margin-bottom: 0.5em;
+    }
+    .encabezado .jumbotron .btn {
+        padding: 0.25em;
+        font-size: 0.8em;
     }
 }
 .encabezado h1 {
@@ -62,20 +74,18 @@ a {
     padding: 0.5em 15%;
 }
 .losOradores p {
-    margin: auto;
     font-size: 0.7em;
 }
 .losOradores .card {
-    text-align: left;
-    margin-bottom: 1em;
+    text-align: justify;
 }
 .losOradores span {
-    margin: 0.1em;
+    margin-right: 0.3em;
 }
 .lugarYFecha {
     background-color: #333333;
     color: #FFF;
-    text-align: left;
+    text-align: justify;
 }
 .lugarYFecha .jumbotron {
     padding: 1em 0em;
@@ -83,29 +93,16 @@ a {
 .lugarYFecha p {
     font-size: 0.9em;
 }
-#honolulu {
-    padding: 0;
-    border-right: solid #FFF 1px;
-}
 .convEnOrador {
     background-color: #FFF;
     padding: 1em 25%;
 }
 .convEnOrador p:nth-child(1) {
-    margin: auto;
     font-size: 0.7em;
-}
-#nombre, #apellido {
-    margin: 1em 0;
-}
-#emailHelp {
-    text-align: left;
 }
 .convEnOrador button {
     background-color: #91d353;
     color: #f3f3f3;
-    border: none;
-    width: 100%;
 }
 .convEnOrador button:hover {
     background-color: #63a525;
