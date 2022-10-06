@@ -4,6 +4,10 @@ body {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body div {
+    scroll-margin-top: 4.5em;
+}
+
 a {
     text-decoration: none;
 }
