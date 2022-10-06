@@ -64,8 +64,8 @@ a {
 
 @media screen and (max-width: 576px) {
     .encabezado .jumbotron {
-        padding: 0;
         top: 0%;
+        padding: 0 3%;
         font-size: 0.7em;
     }
 
@@ -114,10 +114,6 @@ a {
     background-color: #333333;
     color: #FFF;
     text-align: justify;
-}
-
-.lugarYFecha .jumbotron {
-    padding: 1em 0em;
 }
 
 .lugarYFecha p {
