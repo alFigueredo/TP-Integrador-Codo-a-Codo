@@ -52,12 +52,12 @@ a {
 }
 
 .descuentos p {
-    font-size: 0.7em;
+    font-size: 0.75em;
 }
 
-.descuentos .card {
-    text-align: justify;
+.descuentos .carta {
     margin-top: 1em;
+    line-height: 2.5em;
 }
 
 .venta {
@@ -73,6 +73,8 @@ a {
 
 .venta .alert {
     margin: 2em 0;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
 }
 
 .venta button {
