@@ -97,6 +97,10 @@ a {
     border: none;
 }
 
+#comprarTicketsBtn:hover {
+    background: #035000;
+}
+
 .losOradores {
     background-color: #FFF;
     padding: 0.5em 15%;
@@ -141,12 +145,8 @@ a {
 }
 
 .convEnOrador button {
-    background-color: #91d353;
-    color: #f3f3f3;
-}
-
-.convEnOrador button:hover {
     background-color: #63a525;
+    color: #f3f3f3;
 }
 
 .convEnOrador input:focus,
