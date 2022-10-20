@@ -42,8 +42,10 @@ a {
     color: #27e700;
 }
 
-#navbarSupportedContent {
-    margin-right: 7%;
+@media screen and (min-width: 992px) {
+    #navbarSupportedContent {
+        margin-right: 7%;
+    }
 }
 
 .descuentos {
