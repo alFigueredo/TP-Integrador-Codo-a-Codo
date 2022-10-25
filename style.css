@@ -38,11 +38,15 @@ a {
     color: #ececec;
 }
 
-.navbar li.nav-item a.comprarTickets {
+.navbar li.nav-item a.comprarTicketsLink {
     color: #008b0c;
 }
 
-.navbar li.nav-item a.comprarTickets:hover {
+.navbar li.nav-item a.comprarTicketsLink:hover {
+    color: #27e700;
+}
+
+.navbar li.nav-item a.comprarTicketsLink.active {
     color: #27e700;
 }
 
@@ -133,11 +137,13 @@ a {
 
 .convEnOrador {
     background-color: #FFF;
-    padding: 1em 25%;
+    padding: 1em 20%;
 }
 
 @media screen and (max-width: 992px) {
-    .convEnOrador {
+
+    .convEnOrador,
+    .venta {
         padding: 1em 10%;
     }
 }
@@ -146,15 +152,48 @@ a {
     font-size: 0.7em;
 }
 
-.convEnOrador button {
+.convEnOrador button,
+.venta button {
     background-color: #63a525;
     color: #f3f3f3;
 }
 
 .convEnOrador input:focus,
-.convEnOrador textarea:focus {
+.convEnOrador textarea:focus,
+.venta input:focus {
     border-color: #d4d4d4;
     box-shadow: 0 0 0.25rem 0.25rem #d4d4d4;
+}
+
+hr {
+    margin: 1em 7%;
+}
+
+.comprarTickets {
+    background-color: #FFF;
+}
+
+.descuentos {
+    padding: 0.5em 20%;
+}
+
+.descuentos p {
+    font-size: 0.75em;
+}
+
+.descuentos .carta {
+    margin-top: 1em;
+    line-height: 2.5em;
+}
+
+.venta {
+    padding: 0 20%;
+}
+
+.venta .alert {
+    margin: 2em 0;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
 }
 
 .footer {
